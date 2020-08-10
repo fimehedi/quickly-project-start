@@ -8,7 +8,7 @@ This project is only for Linux and Mac users. For windows version you need to wa
 
 ### Install (Linux & Mac): 
 ```bash
-git clone "https://github.com/FIMehedi/quick-project-create.git ~/.quick-project-create"
+git clone "https://github.com/FIMehedi/quick-project-create.git" ~/.quick-project-create
 cd ~/.quick-project-create
 pip install -r requirements.txt
 mv default.env .env
