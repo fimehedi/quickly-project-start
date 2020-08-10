@@ -10,7 +10,7 @@ This project is only for Linux and Mac users. For windows version you need to wa
 ```bash
 git clone "https://github.com/FIMehedi/quick-project-create.git" ~/.quick-project-create
 cd ~/.quick-project-create
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 mv default.env .env
 # Then open .env file and update by your github username password or token (if you want to login github by token). Don't change file format.
 source ~/.quick-project-create/.project-commands.sh
