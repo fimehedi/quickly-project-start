@@ -1,16 +1,27 @@
 # Quickly Project Start
 
-### Install (Linux, Mac & Windows): 
-> **_NOTE:_** If you're a Windows user, you must use [Git Bash](https://git-scm.com/download/win)
+### Install (Linux, Mac): 
 ```bash
 git clone "https://github.com/FIMehedi/quickly-project-start.git" ~/.quick-project-create
 cd ~/.quick-project-create
 pip3 install -r requirements.txt
-mv default.env .env
-# Then open .env file and update by your github username password or token (if you want to login github by token). Don't change file format.
+echo 'USER="Your Github Username"\nPASS="Your Github Password"\nTOKEN="Your Github Account token"' >> .env # Token optional
+# Don't forget to use your own username and password.
 echo 'source ~/.quick-project-create/.project-commands.sh' >> ~/.bashrc # rc file edit
 # If you're using zsh, replace ~/.bashrc to ~/.zshrc
 source ~/.bashrc # For zsh source ~/.zshrc
+```
+
+### Install (Windows): 
+> **_NOTE:_** You must use [Git Bash](https://git-scm.com/download/win)
+```bash
+git clone "https://github.com/FIMehedi/quickly-project-start.git" ~/.quick-project-create
+cd ~/.quick-project-create
+pip install -r requirements.txt
+echo 'USER="Your Github Username"\nPASS="Your Github Password"\nTOKEN="Your Github Account token"' >> .env # Token optional
+# Don't forget to use your own username and password.
+echo 'source ~/.quick-project-create/.project-commands-win.sh' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### Usage:
