@@ -10,6 +10,7 @@ mv default.env .env
 # Then open .env file and update by your github username password or token (if you want to login github by token). Don't change file format.
 echo 'source ~/.quick-project-create/.project-commands.sh' >> ~/.bashrc # rc file edit
 # If you're using zsh, replace ~/.bashrc to ~/.zshrc
+source ~/.bashrc # For zsh source ~/.zshrc
 ```
 
 ### Usage:
