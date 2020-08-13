@@ -20,7 +20,7 @@ def local_repo_create():
         "git init",
         "touch .gitignore",
         "git add .gitignore",
-        "git commit -m 'Initial Commit'",
+        'git commit -m "Initial Commit"',
         # IF you are using HTTPS
         "git remote add origin https://github.com/{}/{}.git".format(github_user, project_name),
         #IF you are using SSH
