@@ -1,20 +1,15 @@
 # Quickly Project Start
----
-**NOTE**
 
-This project is only for Linux and Mac users. For windows version you need to wait some couple of time
-
----
-
-### Install (Linux & Mac): 
+### Install (Linux, Mac & Windows): 
+> **_NOTE:_** If you're a Windows user, you must use [Git Bash](https://git-scm.com/download/win)
 ```bash
 git clone "https://github.com/FIMehedi/quickly-project-start.git" ~/.quick-project-create
 cd ~/.quick-project-create
 pip3 install -r requirements.txt
 mv default.env .env
 # Then open .env file and update by your github username password or token (if you want to login github by token). Don't change file format.
-source ~/.quick-project-create/.project-commands.sh
-vim ~/.bashrc # then insert 'source ~/.quick-project-create/.project-commands.sh' for zsh it will be vim ~/.zshrc
+echo 'source ~/.quick-project-create/.project-commands.sh' >> ~/.bashrc # rc file edit
+# If you're using zsh, replace ~/.bashrc to ~/.zshrc
 ```
 
 ### Usage:
