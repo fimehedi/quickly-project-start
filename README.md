@@ -18,7 +18,9 @@ source ~/.bashrc # For zsh source ~/.zshrc
 git clone "https://github.com/FIMehedi/quickly-project-start.git" ~/.quick-project-create
 cd ~/.quick-project-create
 pip install -r requirements.txt
-echo 'USER="Your Github Username"\nPASS="Your Github Password"\nTOKEN="Your Github Account token"' >> .env # Token optional
+echo 'USER="Your Github Username"
+PASS="Your Github Password"
+TOKEN="Your Github Account token"' >> .env # Token optional
 # Don't forget to use your own username and password.
 echo 'source ~/.quick-project-create/.project-commands-win.sh' >> ~/.bashrc
 source ~/.bashrc
